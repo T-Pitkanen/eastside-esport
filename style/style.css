@@ -3,9 +3,11 @@
 
 
 
-body {
+html {
   font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
 }
+
 
 h1,
 h2,
@@ -753,10 +755,32 @@ p {
   padding: 0.5rem;
 }
 
+
 .f-button {
   outline: #777777 1px solid;
   padding: 0.5rem 1rem;
   background-color: #fefeff;
+}
+
+.f-button.loading::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #17174b;
+  border-top-color: rgb(185, 55, 55);
+  border-radius: 100%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* FOOTER */

@@ -22,11 +22,11 @@
 				</div>
 				<div class="nav-links">
 					<ul>
-						<li><a href="">HOME</a></li>
-						<li><a href="">ABOUT</a></li>
-						<li><a href="">VALUES</a></li>
-						<li><a href="">EVENTS</a></li>
-						<li><a href="">CONTACT</a></li>
+						<li><a href="#top">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#values">VALUES</a></li>
+						<li><a href="#events">EVENTS</a></li>
+						<li><a href="#contact">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 			</div>
 		</nav>
 		<main>
-			<div class="hero">
+			<div id="#top" class="hero">
 				<div class="h1-wrapper">
 					<h1>
 						EASTSIDE <br />
@@ -83,7 +83,7 @@
 						alt=""
 					/>
 				</div>
-				<div class="about-container">
+				<div id="about" class="about-container">
 					<div class="about-header-logo">
 						<div class="about-logo-wrapper">
 							<img src="/assets/EastsideEsportLogo.png" alt="" />
@@ -125,7 +125,7 @@
 				</div>
 			</div>
 			<!-- VALUES -->
-			<div class="values">
+			<div id="values" class="values">
 				<img
 					class="values-background-img"
 					src="/assets/images/cement-texture.jpg"
@@ -180,7 +180,7 @@
 				</div>
 			</div>
 			<!-- SWIPER -->
-			<div class="swiper-container">
+			<div id="swiper" class="swiper-container">
 				<div class="swiper-backgroud">
 					<img
 						class="swiper-background-img"
@@ -223,7 +223,7 @@
 					src="/assets/images/cement-texture.jpg"
 					alt=""
 				/>
-				<div class="schedule-container">
+				<div id="schedule" class="schedule-container">
 					<div class="schedule-wrapper">
 						<h2>OUR SCHEDULE</h2>
 						<p>
@@ -319,7 +319,7 @@
 						</div>
 					</div>
 					<!-- EVENTS -->
-					<div class="events-container">
+					<div id="events" class="events-container">
 						<h3>UPCOMING EVENTS</h3>
 						<div class="events-wrapper">
 							<div class="events-card">
@@ -402,7 +402,7 @@
 				</div>
 			</div>
 			<!-- CONTACT -->
-			<div class="contact">
+			<div id="contact" class="contact">
 				<img
 					class="contact-background-img"
 					src="/assets/images/stem-list-EVgsAbL51Rk-unsplash.jpg"
@@ -425,12 +425,7 @@
 							<p>eastside@esport.com</p>
 						</div>
 						<div class="form-wrapper">
-							<form
-								id=""
-								class="contact-form"
-								method="post"
-								action="contact-form-process.php"
-							>
+							<form id="" class="contact-form" method="" action="">
 								<div class="f-names">
 									<div class="f-name">
 										<label for="firstName" class="">FIRST NAME</label>
@@ -440,7 +435,6 @@
 												id="firstName"
 												name="firstName"
 												class=""
-												required
 											/>
 										</div>
 									</div>
@@ -452,7 +446,6 @@
 												id="lastName"
 												name="lastName"
 												class=""
-												required
 											/>
 										</div>
 									</div>
@@ -461,13 +454,7 @@
 								<div class="email">
 									<label for="Email">EMAIL ADDRESS</label>
 									<div class="f-email">
-										<input
-											type="email"
-											id="Email"
-											name="Email"
-											class=""
-											required
-										/>
+										<input type="email" id="email" name="Email" class="" />
 									</div>
 								</div>
 
@@ -475,12 +462,11 @@
 									<label for="Message" class="">YOUR MESSAGE</label>
 									<div class="f-message">
 										<textarea
-											id="Message"
+											id="message"
 											name="Message"
 											class=""
 											rows="6"
 											maxlength="3000"
-											required
 										></textarea>
 									</div>
 								</div>
@@ -506,11 +492,11 @@
 						/>
 						<div class="footer-navigation">
 							<ul>
-								<li><a href="">HOME</a></li>
-								<li><a href="">ABOUT</a></li>
-								<li><a href="">VALUES</a></li>
-								<li><a href="">GALLERY</a></li>
-								<li><a href="">CONTACT</a></li>
+								<li><a href="#top">HOME</a></li>
+								<li><a href="#about">ABOUT</a></li>
+								<li><a href="#values">VALUES</a></li>
+								<li><a href="#swiper">GALLERY</a></li>
+								<li><a href="#contact">CONTACT</a></li>
 							</ul>
 						</div>
 						<div class="copyright">Copyright ©2023 Tiia Pitkänen</div>
