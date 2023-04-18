@@ -110,7 +110,7 @@
   }
 
   .schedule-background-img {
-    height: 300%;
+    height: 410%;
   }
 
   .schedule-container {
@@ -159,22 +159,34 @@
     width: 80%;
   }
 
+  .contact-container {
+    padding-bottom: 5rem;
+  }
+
   .contact-address-form {
-    flex-direction: column;
-    padding-top: 5rem;
+    flex-direction: column-reverse;
+    padding-top: 3rem;
     justify-content: center;
     align-items: center;
     gap: 2rem;
   }
 
   .contact-background-img {
-    height: 140%;
+    height: 180%;
   }
 
   .form-wrapper {
     width: 80%;
-    color: black;
+
   }
+
+  .contact-form {
+    filter: none;
+    box-shadow: -1px 1px 51px 7px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -1px 1px 51px 7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -1px 1px 51px 7px rgba(0, 0, 0, 0.65);
+  }
+
 
   .address-wrapper {
     text-align: center;
@@ -185,7 +197,7 @@
   }
 
   .address-wrapper p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
   }
 
@@ -194,7 +206,7 @@
   }
 
   .main-footer {
-    padding: 2vh 10%;
+    padding: 2vh 10% 10vh 10%;
   }
 
   .footer-logo {
