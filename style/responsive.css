@@ -1,0 +1,211 @@
+@media (max-width: 500px) {
+  .big {
+    display: none;
+  }
+
+  .break {
+    display: block;
+  }
+
+  .background-video,
+  .games,
+  .about,
+  .values,
+  .swiper-container,
+  .schedule-events-news {
+    border-bottom: 2px solid;
+  }
+
+  .h1-wrapper {
+    height: auto;
+    padding: 0 0 0 2rem;
+  }
+
+  .games {
+    height: auto;
+  }
+
+  .games-wrapper {
+    padding: 0.8rem;
+    gap: 1rem;
+  }
+
+  .games-wrapper img {
+    width: auto;
+    height: 80%;
+    overflow: hidden;
+  }
+
+  .about-text-wrapper {
+    width: 80%;
+    gap: 2rem;
+  }
+
+  .about-container {
+    gap: 3rem;
+    padding-top: 3rem;
+  }
+
+  .values-container {
+    gap: 3rem;
+  }
+
+  .value-card p {
+    padding: 1rem;
+  }
+
+
+  .values-cards {
+    flex-direction: column;
+  }
+
+  .value-card {
+    width: 80%;
+  }
+
+
+  .values-background-img {
+    height: 250%;
+  }
+
+  .value-card-wrapper {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .swiper {
+    margin-top: 5rem;
+    width: 80%;
+  }
+
+  .swiper-slide {
+
+    width: 450px;
+    height: 400px;
+  }
+
+  .swiper-container {
+    padding-bottom: 5rem;
+  }
+
+  .swiper-background-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .schedule-wrapper {
+    width: 80%;
+  }
+
+  .time {
+    line-height: 1.5;
+    gap: 2.5rem;
+  }
+
+  .times {
+    max-height: 100%;
+    flex-direction: row;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+
+  .schedule-background-img {
+    height: 300%;
+  }
+
+  .schedule-container {
+    padding-top: 5rem;
+  }
+
+  .news-cards {
+    flex-direction: column;
+  }
+
+  .news-card {
+    width: 100%;
+  }
+
+  .news-body {
+    padding: 1rem;
+  }
+
+  .news-wrapper h3 {
+    padding-bottom: 1rem;
+  }
+
+  .tag {
+    font-size: 0.7rem;
+  }
+
+  .events-container {
+    gap: 1rem;
+  }
+
+  .events-wrapper {
+    flex-direction: column;
+  }
+
+  .events-card {
+    width: 100%;
+  }
+
+  .events-header {
+    gap: 0rem;
+    justify-content: space-between;
+    padding-left: 2vw;
+  }
+
+  .contact-header p {
+    width: 80%;
+  }
+
+  .contact-address-form {
+    flex-direction: column;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .contact-background-img {
+    height: 140%;
+  }
+
+  .form-wrapper {
+    width: 80%;
+    color: black;
+  }
+
+  .address-wrapper {
+    text-align: center;
+  }
+
+  .address-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .address-wrapper p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .pre-footer {
+    height: 15vh;
+  }
+
+  .main-footer {
+    padding: 2vh 10%;
+  }
+
+  .footer-logo {
+    width: 70px;
+  }
+
+  .footer-navigation {
+    font-size: 0.8rem;
+  }
+
+  .footer-navigation ul {
+    gap: 1rem;
+  }
+}
