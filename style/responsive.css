@@ -177,7 +177,7 @@
   }
 
   .contact-background-img {
-    height: 180%;
+    height: 170%;
     filter: blur(2px) brightness(35%);
   }
 
@@ -225,6 +225,23 @@
   .footer-navigation ul {
     gap: 1rem;
   }
+}
+
+@media (min-width:320px) and (max-width:361px) {
+  .schedule-background-img {
+    height: 500%;
+  }
+
+  .values-background-img {
+    height: 260%;
+  }
+}
+
+@media (min-width:375px) and (max-width:481px) {
+  .contact-background-img {
+    height: 145%;
+  }
+
 }
 
 
@@ -409,7 +426,7 @@
   }
 
   .schedule-background-img {
-    height: 350%;
+    height: 380%;
   }
 
   .contact-header p {
@@ -476,5 +493,442 @@
 
   .footer-navigation ul {
     gap: 1rem;
+  }
+}
+
+@media (min-width:771px) and (max-width:1020px) {
+  .h1-wrapper {
+    height: auto;
+    padding: 3rem 0 0 2rem;
+  }
+
+  .background-video,
+  .big,
+  .games,
+  .about,
+  .values,
+  .swiper-container,
+  .schedule-events-news {
+    border-bottom: 2px solid;
+  }
+
+  .nav-container {
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .nav-links ul {
+    gap: 3rem;
+    padding-right: 2rem;
+  }
+
+
+  .logo-container img {
+    width: 25%;
+    height: auto;
+  }
+
+  .games {
+    height: auto;
+  }
+
+  .games-wrapper {
+    padding: 0.8rem;
+    gap: 1rem;
+  }
+
+  .games-wrapper img {
+    width: auto;
+    height: 80%;
+    overflow: hidden;
+  }
+
+  .about-text-wrapper {
+    width: 60%;
+  }
+
+
+  .values-container {
+    gap: 3rem;
+  }
+
+  .value-card p {
+    font-size: 1.3rem;
+    padding: 2rem;
+  }
+
+  .values-cards {
+    flex-direction: column;
+  }
+
+  .value-card {
+    width: 70%;
+  }
+
+  .values-background-img {
+    height: 250%;
+  }
+
+  .value-card-wrapper {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .swiper {
+    width: 70%;
+  }
+
+  .swiper-slide {
+    width: 450px;
+    height: 400px;
+  }
+
+  .swiper-container {
+    padding-bottom: 8rem;
+  }
+
+  .swiper-background-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .schedule-wrapper {
+    width: 70%;
+    text-align: center;
+  }
+
+  .schedule-background-img {
+    height: 290%;
+  }
+
+  .times {
+    max-height: 100%;
+
+  }
+
+  .time {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+
+  .day {
+    padding-right: 2rem;
+  }
+
+  .news-wrapper {
+    align-items: center;
+  }
+
+  .news-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-card {
+    width: 90%;
+  }
+
+  .news-body {
+    padding: 2rem;
+  }
+
+  .news-body h4 {
+    font-size: 1.2rem;
+  }
+
+  .news-wrapper h3 {
+    padding-bottom: 1rem;
+  }
+
+  .tag {
+    font-size: 0.7rem;
+  }
+
+  .events-container {
+    gap: 1rem;
+    padding-top: 10rem;
+    align-items: center;
+  }
+
+  .events-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events-card {
+    width: 80%;
+  }
+
+  .event-name h4 {
+    font-size: 1.5rem;
+  }
+
+  .event-name p {
+    font-size: 1.2rem;
+  }
+
+  .events-body {
+    gap: 3rem;
+  }
+
+  .event-time {
+    font-size: 1.1rem;
+  }
+
+  .events-header {
+    gap: 0rem;
+    justify-content: space-between;
+    padding-left: 2vw;
+  }
+
+  .contact-header p {
+    width: 80%;
+  }
+
+  .contact-container {
+    padding-bottom: 5rem;
+  }
+
+  .contact-address-form {
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+
+  .form-wrapper {
+    width: 65%;
+  }
+
+  .contact-form {
+    filter: none;
+    box-shadow: -1px 1px 51px 7px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -1px 1px 51px 7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -1px 1px 51px 7px rgba(0, 0, 0, 0.65);
+  }
+
+
+  .address-wrapper {
+    text-align: center;
+  }
+
+  .address-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .address-wrapper p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .pre-footer {
+    height: 15vh;
+  }
+
+  .main-footer {
+    padding: 2vh 10% 10vh 10%;
+  }
+
+  .footer-logo {
+    width: 80px;
+  }
+
+  .footer-navigation {
+    font-size: 1.1rem;
+  }
+
+  .footer-navigation ul {
+    gap: 1rem;
+  }
+
+}
+
+@media (min-width:1024px) and (max-width:1366px) {
+
+  .logo-container img {
+    width: 10%;
+    height: auto;
+  }
+
+  .about-text-wrapper {
+    width: 55%;
+
+  }
+
+  .values-cards {
+
+    gap: 3rem;
+  }
+
+  .value-card-wrapper {
+    gap: 2rem;
+    width: 24%;
+  }
+
+  .value-card img {
+    height: auto;
+  }
+
+  .value-card p {
+    padding: 1rem;
+
+  }
+
+  .swiper {
+    width: 70%;
+
+  }
+
+  .swiper-background-img {
+    height: 130%;
+  }
+
+  .schedule-wrapper {
+    width: 80%;
+  }
+
+  .schedule-background-img {
+    height: 200%;
+  }
+
+  .times {
+
+    max-height: 200px;
+
+  }
+
+  .news-wrapper {
+    width: 80%;
+
+  }
+
+  .news-body {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .news-cards {
+    gap: 3rem;
+  }
+
+  .news-card {
+    width: 100%;
+  }
+
+  .news-body h4 {
+
+    font-size: 0.8rem;
+
+  }
+
+  .tag {
+    padding: 0.1rem;
+    height: 3vh;
+  }
+
+  .events-header {
+    gap: 0.8rem;
+  }
+
+  .events-container {
+    width: 80%;
+
+  }
+
+  .events-card {
+    width: 40%;
+  }
+
+  .events-wrapper {
+    gap: 3rem;
+  }
+
+  .event-time {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+  .event-time span {
+    font-size: 0.7rem;
+  }
+
+  .event-name h4,
+  .event-name p {
+    font-size: 0.8rem;
+  }
+
+  .contact-background-img {
+    height: 120%;
+  }
+
+  .contact-header p {
+    font-size: 1rem;
+  }
+
+  .contact-address-form {
+    gap: 5rem;
+
+  }
+
+  .form-wrapper {
+    width: 35%;
+  }
+
+  .address-wrapper p {
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 1.2px;
+  }
+}
+
+@media (min-width:1367px) and (max-width:1600px) {
+
+  .h1-wrapper h1 {
+    font-size: 5rem;
+
+  }
+
+  .schedule-background-img {
+    height: 150%;
+  }
+
+  .value-card p {
+    font-size: 1.2rem;
+  }
+
+  .schedule-wrapper {
+    width: 78%;
+  }
+
+  .news-wrapper {
+    width: 78%;
+  }
+
+  .events-container {
+    width: 78%;
+  }
+
+  .value-card-wrapper {
+    gap: 1.5rem;
+  }
+
+  .events-card {
+    width: 30%;
+  }
+
+  .value-card img {
+    height: auto;
+  }
+
+  .form-wrapper {
+    width: 25%;
+  }
+
+  .contact-header p {
+    width: 45%;
   }
 }
